@@ -1,3 +1,6 @@
+body {
+    font-family: 'Ubuntu Mono', sans-serif !important;
+}
 .container-fluid {
     max-width: 600px;
 }
