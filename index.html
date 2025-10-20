@@ -33,10 +33,22 @@
             <ul class="list-group" id="task-list">
                 <!--this section will get populated by new li-elements-->
             </ul>
+            <footer class="mt-auto text-white-50"> <!--luo oma luokka ja ota tästä lista-ryhmästä reunat pois tai muokkaa niitä custom css:ssä-->
+                <ul class="list-group list-group-horizontal d-none" id="list-footer">
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-fill border-0">Number of tasks left:
+                        <span class="badge text-bg-primary rounded-pill" id="counter"></span>
+                    </li>
+                    <li class="list-group-item border-0">All</li>
+                    <li class="list-group-item border-0">Active</li>
+                    <li class="list-group-item border-0">Completed</li>
+                </ul>
+
+            </footer>
         </main>
 
         <footer class="mt-auto text-white-50">
             <p class="text-center"><em>A simple todo app by Antti Aalto</em></p>
+            <p class="text-center"><small>Link to <a href="https://github.com/a-aalto/todo-app" class="link-primary">Github repository</a></small</p>
         </footer>
 
     </div>
