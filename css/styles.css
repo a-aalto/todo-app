@@ -4,3 +4,14 @@ body {
 .container-fluid {
     max-width: 600px;
 }
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sm {
+    margin-top: auto;
+    margin-bottom: auto;
+}
