@@ -67,10 +67,10 @@ function createTaskElement(text) {
     newLabel.innerHTML = `<span class="align-middle">${text}</span>`;
 
     // on hover
-    newDiv.addEventListener("mouseover", function () {
+    newDiv.addEventListener("mouseenter", function () {
         removeButton.style.visibility = "visible";
     });
-    newDiv.addEventListener("mouseout", function () {
+    newDiv.addEventListener("mouseleave", function () {
         removeButton.style.visibility = "hidden";
     });
 
