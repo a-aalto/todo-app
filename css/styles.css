@@ -1,9 +1,11 @@
 body {
     font-family: 'Ubuntu Mono', sans-serif !important;
 }
+
 .container-fluid {
     max-width: 600px;
 }
+
 .form-check-input {
     width: 20px;
     height: 20px;
@@ -11,13 +13,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .btn-sm {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .list-group-item {
     border: none;
 }
+
 .new-list-item:hover {
     background-color: var(--bs-tertiary-bg);
 }

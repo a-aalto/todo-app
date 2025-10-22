@@ -19,13 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
         filterRadio.addEventListener("change", function () {
             currentFilter = this.value;
             filterTasks(this);
+
         });
-
-
     }
-
-
-
 });
 
 function addNewTask(event) {
@@ -224,8 +220,8 @@ function filterTasks(selectedFilter) {
         }
 
     }
-    saveTasks();
 
+    saveTasks();
 
 }
 
@@ -256,10 +252,13 @@ function saveTasks() {
 
     localStorage.setItem("tasks", JSON.stringify(taskData));
     localStorage.setItem("selectedFilter", selectedFilter);
+
 }
 
 // load tasks to localstorage
 function loadTasks() {
+
+    // load the data from localstorage into variables
     let savedTasks = JSON.parse(localStorage.getItem("tasks"));
     let savedFilter = localStorage.getItem("selectedFilter");
 
@@ -275,6 +274,7 @@ function loadTasks() {
     numberOfTasks = 0;
 
     for (let i = 0; i < savedTasks.length; i++) {
+
         const taskData = savedTasks[i];
 
         // create new list item based on the saved information
@@ -309,8 +309,7 @@ function loadTasks() {
     if (selectedFilter !== null) {
         selectedFilter.checked = true;
     }
-
+    
     filterTasks(selectedFilter);
-
 
 }
