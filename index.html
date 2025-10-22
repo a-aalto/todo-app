@@ -23,14 +23,14 @@
         <header class="my-5">
             <h1 class="text-center">Todo app</h1>
             <form id="inputForm">
-                <input class="new-todo form-control my-5" id="input" placeholder="What do you need to do?">
+                <input class="new-todo form-control my-5" id="input" placeholder="What do you need to do?" maxlength="50">
             </form>
 
         </header>
 
         <main class="my-5">
 
-            <ul class="list-group" id="task-list">
+            <ul class="list-group list-group-flush" id="task-list">
                 <!--this section will get populated by new li-elements-->
             </ul>
             <footer class="mt-auto text-white-50">
@@ -41,16 +41,16 @@
                         <span class="badge text-bg-primary rounded-pill ms-2" id="counter"></span>
                     </li>
                     <li class="list-group-item border-0 px-1">
-                        <input type="radio" class="btn-check mx-0" name="options-base" id="option1" autocomplete="off"
+                        <input type="radio" class="btn-check mx-0" name="filter" value="all" id="option1" autocomplete="off"
                             checked>
                         <label class="btn" for="option1">All</label>
                     </li>
                     <li class="list-group-item border-0 px-1">
-                        <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
+                        <input type="radio" class="btn-check mx-0" name="filter" value="active" id="option2" autocomplete="off">
                         <label class="btn" for="option2">Active</label>
                     </li>
                     <li class="list-group-item border-0 px-1">
-                        <input type="radio" class="btn-check" name="options-base" id="option3" autocomplete="off">
+                        <input type="radio" class="btn-check mx-0" name="filter" value="completed" id="option3" autocomplete="off">
                         <label class="btn" for="option3">Completed</label>
                     </li>
                 </ul>

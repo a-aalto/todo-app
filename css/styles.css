@@ -15,3 +15,9 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
+.list-group-item {
+    border: none;
+}
+.new-list-item:hover {
+    background-color: var(--bs-tertiary-bg);
+}
