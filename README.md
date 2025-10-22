@@ -5,7 +5,7 @@ Projekti on toteutettu Laurea-ammattikorkeakoulun kurssilla "Web-sovellusten keh
 
 ### Verkkolinkit:
 Netlify: https://todo-app-native-js.netlify.app<br>
-Projektin videoesittely:
+Projektin videoesittely: https://www.youtube.com/watch?v=av0TJbjztLQ
 
 ### Työn jakautuminen
 Projektia teki vain minä, Antti Aalto.
@@ -41,12 +41,16 @@ HTML5 projektin rakenteeseen, CSS (bootsrap) estetiikkaan ja Javascript sovelluk
 Alla olevat lähteet auttoivat projektin edistäessä. ChatGPT:tä käytin yleiseen apuun yksittäisissä asioissa ja virheiden korjauksessa, ja ideoinnissa.
 Pääperiaate oli, että tiedustelin yleisimmät käytännön asiat DOM-skriptaukseen liittyen.<br><br>
 W3Schools:in Javascript-dokumentaatio oli tiettyjen syntaxiin liittyvien asioiden selvittämistä varten sekä funktioiden selvittämistä varten.<br><br>
-"The Modern Javascript Tutorial" -dokumentaatiokirjasto oli syvällisempään tiedonhakuun sekä asioiden selvittämistä varten.<br>
+"The Modern Javascript Tutorial" -dokumentaatiokirjasto oli syvällisempään tiedonhakuun sekä asioiden selvittämistä varten.<br><br>
+Bootstrapin dokumentaatio oli Bootstrapin omien css-luokkien selvittämiseen sekä sovelluksen visuaalisen ilmeen parantamiseen.<br><br>
+Lopuksi, TodoMVC:n Javascript ES5 -implementaatio oli todella hyvä tiedonlähde projektia tehdessä. Kyseinen implementaatio (ES5) käyttää natiivia Javascriptiä, ilman kirjastoja, joten se toimi tässä todella hyvin. Hyödynsin TodoMVC:n ES5 -implementaatiota HTML-rakenteen hahmottamiseen.
 
 **Lähdeluettelo:**
 - ChatGPT 2025. OpenAI. Viitattu 22.10.2025. https://chatgpt.com
 - W3Schools 2025. Javascript-dokumentaatio. Viitattu 22.10.2025. https://www.w3schools.com/js/default.asp
 - The Modern JavaScript Tutorial 2025. Techlead LLC. Viitattu 22.10.2025. https://javascript.info
+- Bootstrap 5.3 Documentation 2025. Bootstrap. Viitattu 22.10.2025. https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- TodoMVC 2025. Javascript ES5. https://todomvc.com/examples/javascript-es5/dist/
 
 ### Lisenssi
 MIT-lisenssi @ a-aalto
